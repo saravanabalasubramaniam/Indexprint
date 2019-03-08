@@ -18,12 +18,13 @@ class Index
 	while(j < a)
 	{
 		 temp=arr[j];
-		
-		for(int k=0;k<a;k++)
+		int k=0+j;                                                         
+		for(k=k;k<a;k++)
 		{
 			if(temp>arr[k])	
 			{
 			    n=k-1;
+			    break;
 			}
 		}
 	j++;
@@ -34,6 +35,4 @@ class Index
 		System.out.println(n);
 	}
    }
-}
-	
-			
+}				
